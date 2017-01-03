@@ -151,7 +151,7 @@ This resource has the following properties:
 ``recursive``
    **Ruby Types:** TrueClass, FalseClass
 
-   Create or delete parent directories recursively. For the ``owner``, ``group``, and ``mode`` properties, the value of this attribute applies only to the leaf directory. Default value: ``false``.
+   Create parent directories or delete child directories recursively. For the ``owner``, ``group``, and ``mode`` properties, the value of this attribute applies only to the leaf directory. Default value: ``false``.
 
 ``retries``
    **Ruby Type:** Integer
@@ -591,4 +591,3 @@ and then the following resources manage the dotfiles:
    end
 
 .. end_tag
-
